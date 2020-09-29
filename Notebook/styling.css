@@ -1,0 +1,40 @@
+html {
+  position: relative;
+}
+
+body {
+  background: url("background.jpg") no-repeat fixed center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+/* style jumbotron  */
+#myContainer {
+  background-color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+  letter-spacing: 2.5px;
+
+  margin-top: 130px;
+}
+
+/* buttons */
+.signup {
+  margin-top: 45px;
+  opacity: 0.9;
+}
+.green {
+  background-color: rgba(114, 190, 35, 0.8);
+}
+
+.green:hover {
+  background-color: rgba(114, 190, 35);
+}
+.footer {
+  position: fixed;
+  left: 0;
+  width: 100%;
+  background-image: linear-gradient(-90deg, #43cea2, #185a9d);
+  color: #ffffff;
+  text-align: center;
+  bottom: 0;
+}
